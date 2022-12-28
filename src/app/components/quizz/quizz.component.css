@@ -14,6 +14,10 @@
 
 .quizz_logo > h3{
   margin-top: 20px;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#18ab29, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .quizz_questions{
@@ -22,12 +26,24 @@
   align-items: center;
   border:1px solid #4224d9;
   border-radius: 8px;
-  background-color: #644ED2;
+  background: url('../../../assets/imgs/heroes.jpg') no-repeat;
+  background-size: 100%;
   width: 100%;
   height: 200px;
   font-size: 20px;
   font-family: 'Segoe UI';
   margin-bottom: 20px;
+}
+
+.transbox {
+  margin: 30px;
+  background: rgb(244,244,244);
+  background: radial-gradient(circle, rgba(244,244,244,1) 0%, rgba(223,240,231,1) 35%, rgba(190,233,210,1) 100%);
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
 }
 
 .quizz_options{
@@ -65,11 +81,43 @@
 .quizz_results{
   width: 100%;
   height: 350px;
-  background-color: #1F0539;
+  background: url('../../../assets/imgs/heroes.jpg') no-repeat;
+  background-size: 100%;
   border-radius: 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.quizz_results button img {
+  color: #000;
+  width: 25px;
+  height: 25px;
+}
+
+.quizz_results button {
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 20px;
+  align-items: center;
+  background-color: #616161;
+}
+
+.quizz_results button:hover {
+  background-color: gray;
+  color: #black;
+}
+
+.results {
+  margin: 30px;
+  background: rgb(244,244,244);
+  background: radial-gradient(circle, rgba(244,244,244,1) 0%, rgba(223,240,231,1) 35%, rgba(190,233,210,1) 100%);
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: black;
+  
 }
